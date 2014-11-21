@@ -1,0 +1,18 @@
+
+.contenido {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.contenido h1{
+	font-size: 60px;
+}
+
+.contenido h2{
+	font-size: 20px;
+	color:red;
+}
+
+.contenido h3{
+	font-size: 25px;
+}

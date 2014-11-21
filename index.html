@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>Ejemplo Simple RequireJS | By Alberto Iglesias Gallego</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/own.css"> <!-- PERSONAL FONTS -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+  </head>
+  <body>
+    
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-4 col-md-5 col-md-offset-3 col-sm-6 col-sm-offset-2 col-xs-12   col-xs-offset-0">
+        <div class="contenido">
+              <div class="wow shake"><h1>RequireJS example</h1></div >
+              <h2>By Alberto Iglesias Gallego</h2>
+        </div>
+        <div class="row">
+           <div class="col-lg-12">
+            <div id="messageContainer">
+            </div>
+            <div id="messageContainer2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Recuerda, en el data-main no es necesario añadir la extensión ".js" -->
+    <script src="js/lib/require.js" data-main="js/main"></script>
+  </body>
+</html>
